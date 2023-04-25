@@ -57,7 +57,16 @@ class Piggy(PiggyParent):
     ****************
     '''
     def anna(self):
-      print("This is for testing")
+      self.fwd()
+      time.sleep(1)
+      self.stop()
+
+      for x in range(4):
+        self.right()
+        time.sleep(1)
+        self.fwd()
+        time.sleep(1)
+        self.stop()
 
   
     def dance(self):
