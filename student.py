@@ -73,9 +73,9 @@ class Piggy(PiggyParent):
         # lower-ordered example...
       for x in range(8):
         self.right()
-        time.sleep(2)
+        time.sleep(.3)
         self.left()
-        time.sleep(1.5)
+        time.sleep(.2)
         self.stop()
 
     def safe_to_dance(self):
