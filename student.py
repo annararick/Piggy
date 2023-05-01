@@ -70,18 +70,6 @@ class Piggy(PiggyParent):
 
   
     def dance(self):
-    '''
-      if safe():
-
-    def safe():
-      for x in range 4
-      #turn 90 degrees
-      #if distance is less than 100
-        return False
-      return True
-        """A higher-ordered algorithm to make your robot dance"""
-        # TODO: check to see if it's safe before dancing
-    '''
         # lower-ordered example...
       for x in range 10:
         self.right()
