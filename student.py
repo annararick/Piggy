@@ -71,11 +71,11 @@ class Piggy(PiggyParent):
   
     def dance(self):
         # lower-ordered example...
-      for x in range(20):
+      for x in range(10):
         self.right()
-        time.sleep(.3)
+        time.sleep(.5)
         self.left()
-        time.sleep(.2)
+        time.sleep(.4)
         self.stop()
 
     def safe_to_dance(self):
