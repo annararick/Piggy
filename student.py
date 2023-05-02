@@ -70,12 +70,12 @@ class Piggy(PiggyParent):
 
   
     def dance(self):
-      if safe():
+      if self.safe():
         print("seems safe")
       else:
         print("not safe")
         
-    def safe():
+    def safe(self):
       for x in range(4):
         
         if self.read_distance < 100:
