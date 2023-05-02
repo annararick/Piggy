@@ -86,9 +86,7 @@ class Piggy(PiggyParent):
       self.stop()
       return True
       #if distance is less than 100
-        """A higher-ordered algorithm to make your robot dance"""
-        # TODO: check to see if it's safe before dancing
-    '''
+      
         # lower-ordered example...
       for x in range(8):
         self.right()
